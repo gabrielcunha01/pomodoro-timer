@@ -1,0 +1,10 @@
+body { background: #ff7675; height: 100vh; display: flex; justify-content: center; align-items: center; color: white; font-family: 'Arial', sans-serif; }
+.pomodoro { text-align: center; background: rgba(255, 255, 255, 0.2); padding: 50px; border-radius: 20px; backdrop-filter: blur(10px); }
+.timer-display { font-size: 6rem; font-weight: bold; margin-bottom: 20px; }
+.controls { display: flex; gap: 10px; justify-content: center; }
+button { padding: 12px 25px; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; text-transform: uppercase; transition: 0.3s; }
+#start { background: #55efc4; color: #2d3436; }
+#pause { background: #fab1a0; color: #2d3436; }
+#reset { background: white; color: #2d3436; }
+button:hover { opacity: 0.8; transform: scale(1.05); }
+#status { margin-top: 20px; font-size: 1.1rem; font-style: italic; }
